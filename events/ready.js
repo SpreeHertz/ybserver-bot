@@ -1,6 +1,7 @@
 const client = require("../index");
 const config = require("../config.json");
 const { MessageEmbed } = require('discord.js');
+const fetch = require('node-fetch');
 
 client.on("ready", async () => {
     console.log(`${client.user.tag} is up and ready to go!`);

@@ -1,6 +1,6 @@
 const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 const config = require('../../config.json');
-
+const fetch = require('node-fetch');
 module.exports = {
     name: "mc-stats",
     description: "Returns stats for our Minecraft server",
